@@ -41,7 +41,7 @@ RUN git checkout ${release}; \
 #
 #  Build the server
 #
-RUN make -j2 deb
+RUN make -j4 deb
 
 #
 #  Clean environment and run the server
