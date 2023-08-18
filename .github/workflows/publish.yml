@@ -8,7 +8,7 @@ on:
   schedule:
     - cron: '0 0 * * *'
 env:
-  REGISTRY_IMAGE: ${{ secrets.DOCKERHUB_USERNAME }}/freeradius-server:latest
+  REGISTRY_IMAGE: ${{ secrets.DOCKERHUB_USERNAME }}/freeradius-server
 jobs:
   Docker-Operations:
     # runs-on: buildjet-4vcpu-ubuntu-2204-arm
